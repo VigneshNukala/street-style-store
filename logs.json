@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2025-02-07T07:53:37.528Z",
+    "action": "User Registered",
+    "username": "Rahul1"
+  },
+  {
+    "id": 2,
+    "username": "Vignesh",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZpZ25lc2giLCJpYXQiOjE3Mzg5MTU2ODh9.9z90OY2dlz37FVUts-A9m_ntTQzsmMpJpPRa9aNJfPE",
+    "timestamp": "2025-02-07T08:08:08.170Z",
+    "action": "User Logged In"
+  },
+  {
+    "username": "Vignesh",
+    "itemId": 7,
+    "name": "Gaming",
+    "timestamp": "2025-02-07T08:10:37.856Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Vignesh",
+    "itemId": 8,
+    "name": "Gaming",
+    "timestamp": "2025-02-07T08:11:17.633Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Vignesh",
+    "itemId": 9,
+    "name": "Gaming",
+    "databaseTable": "items",
+    "timestamp": "2025-02-07T09:23:07.269Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Vignesh",
+    "itemId": 10,
+    "name": "Gaming",
+    "databaseTable": "items",
+    "timestamp": "2025-02-07T09:23:09.029Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Vignesh",
+    "itemId": 11,
+    "name": "Gaming",
+    "databaseTable": "items",
+    "timestamp": "2025-02-07T09:23:11.472Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "vignesh",
+    "databaseTable": "user",
+    "timestamp": "2025-02-07T09:24:10.921Z",
+    "action": "User Registered"
+  },
+  {
+    "id": 7,
+    "username": "vignesh",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpZ25lc2giLCJpYXQiOjE3Mzg5MjAzMjZ9.VQuzFN8bb_lIbdr29hcacI54f-JDqKS9sg00H3bCkWI",
+    "databaseTable": "user",
+    "timestamp": "2025-02-07T09:25:26.745Z",
+    "action": "User Logged In"
+  },
+  {
+    "id": 7,
+    "username": "vignesh",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpZ25lc2giLCJpYXQiOjE3Mzg5MjAzMzZ9.sbGcbgvyZGH0k7qPx6byAIhkbRWRgzIN3ITc448AlzM",
+    "databaseTable": "user",
+    "timestamp": "2025-02-07T09:25:36.564Z",
+    "action": "User Logged In"
+  }
+]

@@ -1,7 +1,7 @@
 const path = require('path');
 const { open } = require('sqlite');
 const sqlite3 = require('sqlite3');
-const dbPath = path.join(__dirname, '../../database.db');
+const dbPath = path.join(__dirname, '../../database/database.sqlite');
 console.log(dbPath)
 
 const initializeDatabase = async () => {

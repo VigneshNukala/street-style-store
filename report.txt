@@ -1,0 +1,50 @@
+Street Style Store Assignment - Project Report
+
+Introduction:
+The Street Style Store Assignment is a backend implementation that provides CRUD operations and 
+authentication using Node.js, Express, and SQLite. The goal of this project is to create a secure and 
+efficient API that allows users to register, log in, and manage items through various API endpoints.
+
+Approach and Implementation:
+The project follows a structured approach to backend development, ensuring scalability, security, and 
+maintainability. The key implementations include:
+
+- Authentication: Implemented JWT-based authentication for secure user login and data protection.
+- Database Management: Used SQLite for local development, with an option to switch to PostgreSQL or 
+                       MySQL for production scalability.
+- API Design: Created RESTful API endpoints to handle user authentication and item management.
+- Security Measures: Implemented rate limiting and standardized error responses for better API 
+                     reliability and security.
+- Middleware: Used Express middleware for request parsing, authentication, and error handling.
+
+Challenges Faced and Solutions Implemented
+- JWT Token Handling Issue :
+  - Challenge: Encountered issues with malformed JWT tokens leading to authentication failures.
+  - Solution: Added validation checks before decoding JWT and ensured the secret key is correctly 
+    configured in environment variables.
+
+- Database Connection Issues :
+  - Challenge: The database connection was initially required to be explicitly called before executing
+               queries.
+  - Solution: Modified the database handler to initialize automatically when needed, removing the need
+              for manual connection calls.
+
+- Handling Cookies in Requests :
+  - Challenge: req.cookies.token was returning undefined due to missing cookie-parser configuration.
+  - Solution: Implemented `cookie-parser` middleware and ensured that the frontend includes credentials 
+              in fetch requests.
+
+Key Features :
+- User Registration & Login : Secure JWT-based authentication.
+- CRUD Operations on Items : Users can create, retrieve, update, and delete items.
+- Token-based Authorization : Ensures that only authenticated users can perform actions.
+- Database Schema : Defined structured tables for users and items with auto-generated timestamps.
+
+Conclusion :
+The project successfully implements a robust backend system with authentication and CRUD functionality. 
+Key challenges related to authentication, database handling, and security were effectively addressed. 
+Future improvements could include integrating a frontend UI, switching to a production-ready database, 
+and adding role-based access control.
+
+Deployment Link : https://street-style-store-khn0.onrender.com
+

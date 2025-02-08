@@ -577,5 +577,195 @@
     "databaseTable": "items",
     "timestamp": "2025-02-07T13:09:05.072Z",
     "action": "Delete Item"
+  },
+  {
+    "username": "vignesh1232",
+    "databaseTable": "user",
+    "timestamp": "2025-02-08T10:03:14.116Z",
+    "action": "User Registered"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "databaseTable": "user",
+    "timestamp": "2025-02-08T10:15:17.401Z",
+    "action": "SIGN UP"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTAwNDl9.sNq7MRsjXy265qB2OXMwX4CTw-_koiw8ovRTBSM3C4Q",
+    "timestamp": "2025-02-08T10:20:49.631Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTA2NTJ9.RC_zR75jCF8AfGVBwEDLRVi5ALlCGmZfl9oMMkQPHmk",
+    "timestamp": "2025-02-08T10:30:52.634Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTEwMzR9.6-t1LR6axf3QdZXSd80sTy182HWmuidxHa9MCAn4MnM",
+    "timestamp": "2025-02-08T10:37:14.554Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTEwNTV9.C7dieGgwYlIVLQml9ePfZTIBe7m1JuibnIBDcuMLVp4",
+    "timestamp": "2025-02-08T10:37:35.524Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTExMDJ9.-ovGbOaOyaPCKeQgwY079Gb3yvPXvQsJvtdlcdaspzo",
+    "timestamp": "2025-02-08T10:38:22.872Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTExNjJ9.Gt3ih1TSejRBI2Ku0NfsUxwr1nJUKebFTtprlwiM-Bg",
+    "timestamp": "2025-02-08T10:39:22.467Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTExNjN9.4D6mEXU5FEODBhl8oObMQdXIhvCXZVqXi_eF-NbPrRU",
+    "timestamp": "2025-02-08T10:39:23.354Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTExNjN9.4D6mEXU5FEODBhl8oObMQdXIhvCXZVqXi_eF-NbPrRU",
+    "timestamp": "2025-02-08T10:39:23.891Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "VIGNESHNUKALA",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlZJR05FU0hOVUtBTEEiLCJpYXQiOjE3MzkwMTg4MzR9.KaBxYLlIPi7Fir80RbY0HuhRTEVRFo6WJEiqjP1RV6k",
+    "timestamp": "2025-02-08T12:47:14.143Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMTk2NjZ9.L9jRf5aSY74wrs__DU3-6zEAjbr6GksyyJa8UzIrmx4",
+    "timestamp": "2025-02-08T13:01:06.930Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMTk2ODZ9.bVcWzoy8A8PPpnFdp2rVBNrtYSjL83oJW6uWVx8BIzo",
+    "timestamp": "2025-02-08T13:01:26.745Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMTk4MDgsImV4cCI6MTczOTAyMzQwOH0.lh8dyUFUHSXHzWPlXret-7a_jmDvESddVTD57YP9erE",
+    "timestamp": "2025-02-08T13:03:28.320Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "itemId": 26,
+    "name": "Spiderman",
+    "timestamp": "2025-02-08T13:18:59.492Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Sainath",
+    "itemId": 27,
+    "name": "Spiderman1",
+    "timestamp": "2025-02-08T13:19:33.838Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Sainath",
+    "databaseTable": "items",
+    "timestamp": "2025-02-08T13:28:12.879Z",
+    "action": "Items Retrieved"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "27",
+    "timestamp": "2025-02-08T13:28:26.222Z",
+    "action": "Fetch Item"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "27",
+    "timestamp": "2025-02-08T13:28:41.485Z",
+    "action": "Update Item"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "27",
+    "timestamp": "2025-02-08T13:31:49.156Z",
+    "action": "Update Item"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "4",
+    "timestamp": "2025-02-08T13:31:54.594Z",
+    "action": "Update Item"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "4",
+    "timestamp": "2025-02-08T13:32:00.024Z",
+    "action": "Delete Item"
+  },
+  {
+    "username": "Spiderman27",
+    "databaseTable": "user",
+    "timestamp": "2025-02-08T13:34:13.911Z",
+    "action": "SIGN UP"
+  },
+  {
+    "username": "Spiderman27",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNwaWRlcm1hbjI3IiwiaWF0IjoxNzM5MDIxNzAyLCJleHAiOjE3MzkwMjUzMDJ9.sl7mCSdSHeDsQkiIYXNNpC7mO_-6DlH8C5rCVzAbiEA",
+    "timestamp": "2025-02-08T13:35:02.648Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Spiderman27",
+    "itemId": 28,
+    "name": "Pencil",
+    "timestamp": "2025-02-08T13:52:08.276Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Spiderman27",
+    "databaseTable": "items",
+    "timestamp": "2025-02-08T13:53:21.162Z",
+    "action": "Items Retrieved"
+  },
+  {
+    "username": "Spiderman27",
+    "itemId": "28",
+    "timestamp": "2025-02-08T13:54:28.976Z",
+    "action": "Fetch Item"
+  },
+  {
+    "username": "Spiderman27",
+    "databaseTable": "items",
+    "timestamp": "2025-02-08T13:55:33.304Z",
+    "action": "Items Retrieved"
+  },
+  {
+    "username": "Spiderman27",
+    "itemId": 29,
+    "name": "Xbox",
+    "timestamp": "2025-02-08T13:55:50.090Z",
+    "action": "Item Created"
+  },
+  {
+    "username": "Spiderman27",
+    "itemId": "29",
+    "timestamp": "2025-02-08T13:56:25.575Z",
+    "action": "Fetch Item"
+  },
+  {
+    "username": "Spiderman27",
+    "itemId": "15",
+    "timestamp": "2025-02-08T13:57:17.220Z",
+    "action": "Delete Item"
   }
 ]

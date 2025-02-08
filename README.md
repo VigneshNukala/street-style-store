@@ -2,7 +2,7 @@
 
 
 ## **Deployment Link:**
-https://fintech-portfolio-dashboard.vercel.app/
+https://street-style-store-khn0.onrender.com
 
 ## **Description**
 
@@ -39,7 +39,7 @@ npm install  # or yarn install
 ### **3. Start the application:**
 
 ```bash
-npm start  # or yarn start
+node index.js  # or yarn start
 ```
 
 ## **API Documentation**
@@ -49,44 +49,47 @@ npm start  # or yarn start
 #### - **REGISTER :**
 
 ```
-POST /api/register
+POST /auth/register
 ```
 
 - **Description :** Creats a new user.
 - **Request Body :**
 ```
 {
-  "username": "user123",
-  "password": "password123"
+  "username" : "Spiderman27",
+  "password" : "Password@27"
 }
 ```
 
 - **Response :**
 ```
 {
-  "user created Successfully"
+  "status": "success",
+  "message": "User registered successfully."
 }
 ```
 
 #### - **LOGIN :**
 
 ```
-POST /api/login
+POST /auth/login
 ```
 
 - **Description :** Logs in a user.
 - **Request Body :**
 ```
 {
-  "username": "user123",
-  "password": "password123"
+  "username" : "Spiderman27",
+  "password" : "Password@27"
 }
 ```
 
 - **Response :**
 ```
 {
-  "token": "your_jwt_token"
+  "status": "success",
+  "message": "Login successful.",
+  "token": <token>
 }
 ```
 
@@ -109,15 +112,22 @@ Authorization: Bearer <token>
 - **Request Body :**
 ```
 {
-  "name": "xbox",
-  "description": "This is video game console of Microsoft"
+  "name" : "Xbox",
+  "description" : "This is a microsoft gaming console"
 }
 ```
 
 - **Response :**
 ```
 {
-  "Added new item successfully"
+  "status": "success",
+  "message": "Item added successfully",
+  "newItem": {
+    "id": 29,
+    "name": "Xbox",
+    "description": "This is a microsoft gaming console",
+    "created_at": "2025-02-08 13:55:50"
+  }
 }
 ```
 
@@ -136,15 +146,25 @@ Authorization: Bearer <token>
 
 - **Response :**
 ```
-[
-  {
-    id : 1,
-    name : XBOX,
-    description : This is video game console of Microsoft,
-    created_at : 
-  },
-  ...
-]
+{
+  "status": "success",
+  "message": "Fetched all items",
+  "items": [
+    {
+      "id": 2,
+      "name": "Vignesh",
+      "description": "I am an Engineering Gradudate",
+      "created_at": "2025-02-07 06:35:44"
+    },
+    {
+      "id": 5,
+      "name": "Gaming",
+      "description": "PS5",
+      "created_at": "2025-02-07 08:09:40"
+    },
+    ...
+  ]
+}
 ```
 
 #### - **RETRIVE A SPECIFIC ITEM :**
@@ -163,10 +183,14 @@ Authorization: Bearer <token>
 - **Response :**
 ```
 {
-  id : 1,
-  name : XBOX,
-  description : This is video game console of Microsoft,
-  created_at : 
+  "status": "success",
+  "message": "Item fetched successfully",
+  "item": {
+    "id": 29,
+    "name": "Xbox",
+    "description": "This is a microsoft gaming console",
+    "created_at": "2025-02-08 13:55:50"
+  }
 }
 ```
 
@@ -194,14 +218,14 @@ Authorization: Bearer <token>
 - **Response :**
 ```
 {
-  id : 1,
+  id : 30,
   name : PS5,
   description : "This is video game console of Sony",
   created_at : 
 }
 ```
 
-#### - **UPDATES A SPECIFIC ITEM :**
+#### - **DELETE A SPECIFIC ITEM :**
 
 ```
 DELETE /api/items/:id
@@ -217,7 +241,8 @@ Authorization: Bearer <token>
 - **Response :**
 ```
 {
- item with ID : 1 successfully deleted
+  "status": "success",
+  "message": "Item deleted successfully"
 }
 ```
 

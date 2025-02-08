@@ -42,6 +42,13 @@ npm install  # or yarn install
 node index.js  # or yarn start
 ```
 
+## **Evaluation using Postman**
+Ensure you follow below steps:
+
+- Download and install postman from a web browser
+- Signup and Login with your account
+- Check each and every endipoints mentioned in below
+
 ## **API Documentation**
 
 ### **Authentication**

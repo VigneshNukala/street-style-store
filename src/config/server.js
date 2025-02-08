@@ -7,7 +7,7 @@ const rateLimiter = (req, res, next) => {
   const ip = req.ip || req.headers["x-forwarded-for"] || "unknown";
   const time = Date.now();
   const windowMs = 15 * 60 * 1000; // 15 minutes
-  const maxRequests = 2;
+  const maxRequests = 100;
 
   if (!requestCounts.has(ip)) {
     requestCounts.set(ip, []);

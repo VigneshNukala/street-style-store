@@ -1,5 +1,5 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
@@ -60,7 +60,7 @@ authRouter.post("/login", async (req, res) => {
       message: "Username and password are required.",
     });
   }
-  
+
   try {
     const user = await store.getUser(username);
     if (!user) {
@@ -69,24 +69,27 @@ authRouter.post("/login", async (req, res) => {
         message: "User doesn't exist",
       });
     }
-    
+
     const isPasswordMatched = await bcrypt.compare(password, user.password);
-    
+
     if (!isPasswordMatched) {
       return res.status(400).send("Invalid password");
     }
-    const jwtToken = jwt.sign({ username }, process.env.SECRET_KEY, { expiresIn: "1h" });
+
+    const jwtToken = jwt.sign({ username }, process.env.SECRET_KEY, {
+      expiresIn: "2h",
+    });
+    console.log("hi");
 
     const cookieExpiry = 60 * 60 * 60 * 1000;
     res.cookie("authToken", jwtToken, {
-        httpOnly: true,
-        secure: true,
-        sameSite: "None",
-        maxAge: cookieExpiry,
-        path: "/",
-      });
-    
-    console.log("1")
+      httpOnly: true,
+      secure: true,
+      sameSite: "None",
+      maxAge: cookieExpiry,
+      path: "/",
+    });
+
     await logAction("SIGN IN", {
       username,
       jwtToken,

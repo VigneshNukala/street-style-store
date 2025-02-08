@@ -803,5 +803,11 @@
     "itemId": "2",
     "timestamp": "2025-02-08T14:31:28.857Z",
     "action": "Fetch Item"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMzYxNTAsImV4cCI6MTczOTA0MzM1MH0.x2pj1hL1N5LfDw0JxGLiaejYMawC6iBtaqqV0_byGDU",
+    "timestamp": "2025-02-08T17:35:50.761Z",
+    "action": "SIGN IN"
   }
 ]

@@ -62,7 +62,6 @@ authRouter.post("/login", async (req, res) => {
   }
   
   try {
-    console.log(2)
     const user = await store.getUser(username);
     if (!user) {
       return res.status(400).json({
@@ -70,21 +69,24 @@ authRouter.post("/login", async (req, res) => {
         message: "User doesn't exist",
       });
     }
-    console.log(3)
-
+    
     const isPasswordMatched = await bcrypt.compare(password, user.password);
-
+    
     if (!isPasswordMatched) {
       return res.status(400).send("Invalid password");
     }
     const jwtToken = jwt.sign({ username }, process.env.SECRET_KEY, { expiresIn: "1h" });
 
-    // res.cookie("token", token, {
-    //   httpOnly: true,  
-    //   secure: true,
-    //   sameSite: "Strict",
-    // });
-
+    const cookieExpiry = 60 * 60 * 60 * 1000;
+    res.cookie("authToken", jwtToken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: cookieExpiry,
+        path: "/",
+      });
+    
+    console.log("1")
     await logAction("SIGN IN", {
       username,
       jwtToken,

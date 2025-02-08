@@ -767,5 +767,41 @@
     "itemId": "15",
     "timestamp": "2025-02-08T13:57:17.220Z",
     "action": "Delete Item"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMjM5NDYsImV4cCI6MTczOTAyNzU0Nn0.WFyTB9JoOyQDdqxjKbyewFgkHRLIoI_Ec8Ev1iR_9Vk",
+    "timestamp": "2025-02-08T14:12:26.035Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMjQwNTQsImV4cCI6MTczOTAyNzY1NH0.qq2q4qJ7DH-HUADqvbggJzNe_KrRToil2yVFK0wGFSI",
+    "timestamp": "2025-02-08T14:14:14.817Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMjQzNjMsImV4cCI6MTczOTAyNzk2M30.gMUB4sfdIxvJShPf4M3SJ3IZ--4PFYjDpZ88oYAPWbA",
+    "timestamp": "2025-02-08T14:19:23.227Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhaW5hdGgiLCJpYXQiOjE3MzkwMjQ5ODYsImV4cCI6MTczOTAyODU4Nn0.5va1T6vaLRhcTVJrHanHpZIlZXoFkL6w2ApgDAxUeAw",
+    "timestamp": "2025-02-08T14:29:46.352Z",
+    "action": "SIGN IN"
+  },
+  {
+    "username": "Sainath",
+    "databaseTable": "items",
+    "timestamp": "2025-02-08T14:31:19.573Z",
+    "action": "Items Retrieved"
+  },
+  {
+    "username": "Sainath",
+    "itemId": "2",
+    "timestamp": "2025-02-08T14:31:28.857Z",
+    "action": "Fetch Item"
   }
 ]

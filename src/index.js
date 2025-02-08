@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(rateLimiter);
-// app.use(cookieParser());
+app.use(cookieParser());
 
 const startServer = async () => {
   try {

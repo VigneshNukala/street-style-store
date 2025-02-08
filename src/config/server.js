@@ -1,5 +1,4 @@
 const PORT = process.env.PORT || 3000;
-const SECRET_KEY = "SECRET";
 
 const requestCounts = new Map();
 
@@ -31,6 +30,5 @@ const rateLimiter = (req, res, next) => {
 
 module.exports = {
   PORT,
-  SECRET_KEY,
   rateLimiter,
 };

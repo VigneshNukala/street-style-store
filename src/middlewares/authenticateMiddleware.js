@@ -5,16 +5,7 @@ const { handleError } = require("../utils");
 
 const authenticateToken = (req, res, next) => {
   try {
-    const authHeader = req.headers["authorization"];
-    let jwtToken;
-    // const token = req.cookies.token;
-    // console.log(token);
-
-    if (authHeader) {
-      jwtToken = authHeader.split(" ")[1];
-    }
-
-
+    const jwtToken = req.cookies?.authToken;
 
     if (!jwtToken) {
       return res
@@ -39,3 +30,25 @@ const authenticateToken = (req, res, next) => {
 };
 
 module.exports = { authenticateToken };
+
+// exports.isLogin = async (req, res, next) => {
+//   const token = req.cookies?.authToken;
+//   if (!token) {
+//     return res.status(401).send("Authorization token not provided");
+//   }
+//   await jwt.verify(token, process.env.TOKEN_KEY, (err, decoded) => {
+//     if (err) {
+//       return res.status(401).send("Invalid token");
+//     }
+//     req.userData = { user_id: decoded.user_id, sub_id: decoded.sub_id };
+//     next();
+//   });
+// };
+
+// res.cookie("authToken", token, {
+//   httpOnly: true,
+//   secure: true,
+//   sameSite: "None",
+//   maxAge: cookieExpiry,
+//   path: "/",
+// });

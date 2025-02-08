@@ -2,7 +2,7 @@
 
 
 ## **Deployment Link:**
-https://fintech-portfolio-dashboard.vercel.app/
+https://street-style-store-khn0.onrender.com
 
 ## **Description**
 

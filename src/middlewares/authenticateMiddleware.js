@@ -30,25 +30,3 @@ const authenticateToken = (req, res, next) => {
 };
 
 module.exports = { authenticateToken };
-
-// exports.isLogin = async (req, res, next) => {
-//   const token = req.cookies?.authToken;
-//   if (!token) {
-//     return res.status(401).send("Authorization token not provided");
-//   }
-//   await jwt.verify(token, process.env.TOKEN_KEY, (err, decoded) => {
-//     if (err) {
-//       return res.status(401).send("Invalid token");
-//     }
-//     req.userData = { user_id: decoded.user_id, sub_id: decoded.sub_id };
-//     next();
-//   });
-// };
-
-// res.cookie("authToken", token, {
-//   httpOnly: true,
-//   secure: true,
-//   sameSite: "None",
-//   maxAge: cookieExpiry,
-//   path: "/",
-// });
